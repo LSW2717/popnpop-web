@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Gmarket Sans';
+  src: url('@/assets/fonts/GmarketSansTTFBold.ttf') format('truetype');
+  font-weight: 700; /* Bold 폰트 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gmarket Sans';
+  src: url('@/assets/fonts/GmarketSansTTFLight.ttf') format('truetype');
+  font-weight: 300; /* Light 폰트 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gmarket Sans';
+  src: url('@/assets/fonts/GmarketSansTTFMedium.ttf') format('truetype');
+  font-weight: 500; /* Medium 폰트 */
+  font-style: normal;
+}
+
+@mixin font-style($font-size, $font-weight, $letter-spacing) {
+  font-family: 'Gmarket Sans', sans-serif;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+  line-height: 140%;
+}
+// Header1 스타일
+.header1-light {
+  @include font-style(26px, 300, -0.15px);
+}
+
+.header1-medium {
+  @include font-style(26px, 500, -0.65px);
+}
+
+.header1-bold {
+  @include font-style(26px, 700, -0.65px);
+}
+
+// Header2 스타일
+.header2-light {
+  @include font-style(24px, 300, -0.60px);
+}
+
+.header2-medium {
+  @include font-style(24px, 500, -0.60px);
+}
+
+.header2-bold {
+  @include font-style(24px, 700, -0.60px);
+}
+
+// Header3 스타일
+.header3-light {
+  @include font-style(22px, 300, -0.55px);
+}
+
+.header3-medium {
+  @include font-style(22px, 500, -0.55px);
+}
+
+.header3-bold {
+  @include font-style(22px, 700, -0.55px);
+}
+
+// Header4 스타일
+.header4-light {
+  @include font-style(20px, 300, -0.50px);
+}
+
+.header4-medium {
+  @include font-style(20px, 500, -0.50px);
+}
+
+.header4-bold {
+  @include font-style(20px, 700, -0.50px);
+}
+
+// Header5 스타일
+.header5-light {
+  @include font-style(18px, 300, -0.45px);
+}
+
+.header5-medium {
+  @include font-style(18px, 500, -0.45px);
+}
+
+.header5-bold {
+  @include font-style(18px, 700, -0.45px);
+}
+
+// Body1 스타일
+.body1-light {
+  @include font-style(17px, 300, -0.42px);
+}
+
+.body1-medium {
+  @include font-style(17px, 500, -0.42px);
+}
+
+.body1-bold {
+  @include font-style(17px, 700, -0.42px);
+}
+
+// Body2 스타일
+.body2-light {
+  @include font-style(16px, 300, -0.40px);
+}
+
+.body2-medium {
+  @include font-style(16px, 500, -0.40px);
+}
+
+.body2-bold {
+  @include font-style(16px, 700, -0.40px);
+}
+
+// Body3 스타일
+.body3-light {
+  @include font-style(15px, 300, -0.38px);
+}
+
+.body3-medium {
+  @include font-style(15px, 500, -0.38px);
+}
+
+.body3-bold {
+  @include font-style(15px, 700, -0.38px);
+}
+
+// Body4 스타일
+.body4-light {
+  @include font-style(14px, 300, -0.35px);
+}
+
+.body4-medium {
+  @include font-style(14px, 500, -0.35px);
+}
+
+.body4-bold {
+  @include font-style(14px, 700, -0.28px);
+}
+
+.custom-stroke{
+  -webkit-text-stroke-width: 0.5px;
+}
